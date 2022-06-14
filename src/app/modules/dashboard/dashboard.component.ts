@@ -1,14 +1,7 @@
-import {
-  AfterContentInit,
-  AfterViewInit,
-  Component,
-  HostListener,
-  OnInit,
-} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { GlobalVariable } from '../../common/global-variable';
 import { CommonService } from '../../common/common.service';
 import { Router } from '@angular/router';
-import * as Highcharts from 'highcharts';
 import { EChartsOption } from 'echarts';
 
 @Component({
